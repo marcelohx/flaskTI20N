@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+  <form action="/cadastrarUsuario" method="POST">
+      <label> CPF: </label>
+      <input type="text" name="cpf"/><br><br>
+
+      <label> Nome: </label>
+      <input type="text" name="nome"/><br><br>
+
+      <label> Telefone: </label>
+      <input type="text" name="telefone"/><br><br>
+
+      <label> Endereço: </label>
+      <input type="text" name="endereco"/><br><br>
+
+      <button>Cadastrar</button>
+  </form>
+  <a href="/">Consultar Tudo</a><br><br>
+  <a href="/">Consultar Individual</a><br><br>
+  <a href="/">Atualizar</a><br><br>
+  <a href="/">Excluir</a><br><br>
+{% endblock %}
