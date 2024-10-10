@@ -1,0 +1,22 @@
+body{
+    background-color:#8cb2fa;/* cor de fundo da pagina */
+    color: #000000; /* Cor da fonte */
+    font-size: 26px; /*Tamanho da Fonte*/
+    margin: 0; /* Margem em relação a tela */
+    /*padding: 0; Margem interna* se o margin estiver 0 nao precisa de padding*/
+}/*Comentarios */
+
+
+.btn{
+     background-color: rgb(120, 190, 247);
+     border-color: rgb(120, 190, 247);
+}
+
+}
+
+li:hover{ /*Hover é um elemento de modificação -> modifica o conteudo original da Tag*/
+    background-color: #000;
+    font-size: 30px;
+    font-family: 'Trebuchet MS'; /*Definir uma fonte*/
+    border: 10px solid #888
+}

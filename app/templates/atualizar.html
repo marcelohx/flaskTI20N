@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-  <form action="/cadastrarUsuario" method="POST">
+<form action="/atualizar" method="post">
       <label> CPF: </label>
       <input type="text" name="cpf"/><br><br>
 
@@ -12,8 +12,6 @@
 
       <label> Endereço: </label>
       <input type="text" name="endereco"/><br><br>
-
-      <button>Cadastrar</button>
+      <button>Atualizar</button><br><br>
   </form>
-
 {% endblock %}

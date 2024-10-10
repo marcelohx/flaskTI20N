@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+  <form action="/listarIndividual" method="POST">
+      <label> CPF: </label>
+      <input type="text" name="cpf"/><br><br>
+      <button>Consultar Individual</button><br><br>
+  </form>
+{% endblock %}

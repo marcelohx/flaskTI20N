@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+  <form action="/excluir" method="POST">
+      <label> CPF: </label>
+      <input type="text" name="cpf"/><br><br>
+      <button>Excluir</button><br><br>
+  </form>
+
+{% endblock %}
